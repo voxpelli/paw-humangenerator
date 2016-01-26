@@ -15,6 +15,9 @@
           is_json = value.search(/(json)/i) > -1;
           continue;
         }
+        if (key === 'Authorization') {
+          value = value.replace(/^(\w+)\s.*$/, '$1 xxxxxx')
+        }
         headers.push({
           key: key,
           value: value
