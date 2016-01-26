@@ -13,3 +13,11 @@ Authorization: foo
   "bar": "foo"
 }
 ```
+
+## Install
+
+Clone the repository as `se.kodfabrik.PawExtensions.HumanGenerator` into your Paw extension folder:
+
+`git clone git@github.com:voxpelli/paw-humangenerator.git se.kodfabrik.PawExtensions.HumanGenerator`
+
+You can find your Paw extension folder by going to `Preferences > Extensions` and hit the `Open Extensions Directory` button.
