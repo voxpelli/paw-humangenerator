@@ -21,3 +21,7 @@ Clone the repository as `se.kodfabrik.PawExtensions.HumanGenerator` into your Pa
 `git clone git@github.com:voxpelli/paw-humangenerator.git se.kodfabrik.PawExtensions.HumanGenerator`
 
 You can find your Paw extension folder by going to `Preferences > Extensions` and hit the `Open Extensions Directory` button.
+
+## Credits
+
+Initial inspiration and code was taken from the [Paw API Blueprint Generator Extension](https://github.com/apiaryio/Paw-APIBlueprintGenerator).
