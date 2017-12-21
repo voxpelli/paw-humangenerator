@@ -39,7 +39,7 @@
       var request = this.request(paw_request);
 
 
-      var result = paw_request.method + ' ' + paw_request.url;
+      var result = paw_request.method + ' ' + decodeURIComponent(paw_request.url);
 
       if (request.headers.length) {
         result += '\n\n' + request.headers.map(function (header) {
